@@ -1,0 +1,16 @@
+{
+  "name": "@nuvanti/example-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "NUVANTI",
+  "scripts": {
+    "save": "node ../app-scripts/save.js",
+    "start": "node ../app-scripts/start.js"
+  },
+  "dependencies": {
+    "@nuvanti/ui": "*",
+    "@nuvanti/rad-model": "*",
+    "@nuvanti/ts-style": "*",
+    "@nuvanti/basic-ui-model": "*"
+  }
+}

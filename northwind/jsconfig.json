@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "checkJs": true,
+    "lib": ["ESNext"],
+    "esModuleInterop": true, // force import
+    "moduleResolution": "node",
+
+    "allowSyntheticDefaultImports": true // force import
+  },
+
+  "include": ["app.js"],
+  "exclude": ["dist", "build", "node_modules"]
+}
